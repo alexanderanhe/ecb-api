@@ -2,10 +2,10 @@ const { Router } = require('express');
 
 const router = new Router();
 
-router.get('/test', (req, res) => {
+router.get('/', (req, res) => {
     const data = {
-        name: 'Fazt',
-        website: 'faztweb.com'
+        name: 'Alexander Angulo',
+        website: 'https://www.alex-angulo.me/'
     };
     res.json(data);
 });  

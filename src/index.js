@@ -10,7 +10,7 @@ if (process.env.NODE_ENV !== 'production') {
 }
 
 var allowedOrigins = ['http://localhost:3000',
-                      'https://telynet.herokuapp.com'];
+                      'https://ecb-app.herokuapp.com'];
 // middlewares
 app.use(morgan('dev'));
 app.use(cors({
